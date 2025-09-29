@@ -1,0 +1,14 @@
+Singleton Design Pattern ::
+================================
+1. Singleton Design pattern is going to create Single Instance of Class.
+2. It is having instance initially as null which can be of type  
+private static Singleton instance = null
+3. Its constructor is private
+4. its instance creation method is public not private.
+
+Breaking Singleton
+===================
+
+Here , we can break with Reflection API which is imported from java.lang.reflect.Construct and can create multple objects and show its unique hashcode with object.hashCode();
+
+

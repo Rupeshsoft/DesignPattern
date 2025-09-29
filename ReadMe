@@ -23,3 +23,13 @@ Breaking Singleton
 Here , we can break with Reflection API which is imported from java.lang.reflect.Construct and can create multple objects and show its unique hashcode with object.hashCode();
 
 
+Singleton with Exception e  as main Exception Handling class you can use rather than using other exception classes like 
+NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e
+
+example : 
+
+catch(Exception e ){
+            e.printStackTrace();
+        }
+
+

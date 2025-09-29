@@ -6,6 +6,17 @@ private static Singleton instance = null
 3. Its constructor is private
 4. its instance creation method is public not private.
 
+
+Errors : 
+   1.  cannot find symbol  .. catch(NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e ) 
+
+Solution :
+
+import java.lang.reflect.InvocationTargetException;
+
+============================================================
+
+
 Breaking Singleton
 ===================
 
